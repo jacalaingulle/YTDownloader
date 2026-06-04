@@ -92,11 +92,12 @@ header{
       border: none;
       border-radius: 50px;
       margin-top: 20px;
+      cursor: pointer;
     }
 
-    button:hover{
-      opacity: 80%;
-      cursor: pointer;
+    button:disabled{
+      background-color: rgb(223, 223, 223);
+      cursor: not-allowed;
     }
   }
 
